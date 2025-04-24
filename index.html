@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">Logo</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#htmlIntro">HTML Intro</a></li>
+                    <li><a href="#css-grid-one">Modern CSS</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">Modern grid-two</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>The Modern Web Developer`s Guide</h2>
+
+                <p>HTML, CSS & JavaScript Best Practices for Clean, Scalable Code
+                    The web evolves fast—are you keeping up? Whether you're a beginner or an experienced developer,
+                    mastering the fundamentals while adapting to new techniques is key. Here’s what you need to know
+                    today.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/js-optmazed.svg" alt="Description">
+            </div>
+        </div>
+    </section>
+
+    <section id="htmlIntro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>HTML: Semantic Structure Matters</h2>
+            <p>Gone are the days of
+                'div' soup. Modern HTML leverages semantic tags for better accessibility, SEO, and maintainability:</p>
+            <p>✅ Best Practices:
+
+                Use clear, hierarchical headings (h1 to h6) to structure content.
+                Group related content with semantic containers (e.g., 'section' for thematic blocks).
+                Label interactive elements (buttons, links) for screen readers.</p>
+            <p>Why It Matters:
+                Semantic HTML future-proofs your projects and ensures inclusivity for all users.</p>
+        </div>
+    </section>
+
+    <section id="css-grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">CSS: Layouts That Adapt</h2>
+            <p class="grid-description">Stop fighting with floats and margins. Today`s CSS offers powerful tools like:
+            </p>
+
+            <div class="grid">
+                <article>
+                    <h3>Flexbox:</h3>
+                    <p>Perfect for one-dimensional layouts (menus, card rows).
+                    </p>
+                </article>
+                <article>
+                    <h3>Grid:</h3>
+                    <p> Ideal for complex two-dimensional designs (dashboards, galleries).</p>
+                </article>
+                <article>
+                    <h3>Custom Properties:</h3>
+                    <p>Reusable variables for colors, spacing, and more.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galllery</h2>
+            <p class="grid-description"> A small description
+            </p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?random=1" alt="random images from picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?random=2" alt="random images from picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?random=3" alt="random images from picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?random=4" alt="random images from picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?random=5" alt="random images from picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?random=6" alt="random images from picsum">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">CSS: Layouts That Adapt</h2>
+            <p class="grid-description">Stop fighting with floats and margins. Today`s CSS offers powerful tools like:
+            </p>
+
+            <div class="grid">
+                <article>
+                    <h3>Flexbox:</h3>
+                    <p>Perfect for one-dimensional layouts (menus, card rows).
+                    </p>
+                </article>
+                <article>
+                    <h3>Grid:</h3>
+                    <p> Ideal for complex two-dimensional designs (dashboards, galleries).</p>
+                </article>
+                <article>
+                    <h3>Custom Properties:</h3>
+                    <p>Reusable variables for colors, spacing, and more.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>pricing</h2>
+            <p>Gone are the days of
+                'div' soup. Modern HTML leverages semantic tags for better accessibility, SEO, and maintainability:</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Ttile 1</th>
+                            <th>Ttile 2</th>
+                            <th>Ttile 3</th>
+                            <th>Ttile 4</th>
+                            <th>Ttile 5</th>
+                        </tr>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>The Modern Web Developer`s Guide</h2>
+
+                <p>HTML, CSS & JavaScript Best Practices for Clean, Scalable Code
+                    The web evolves fast—are you keeping up? Whether you're a beginner or an experienced developer,
+                    mastering the fundamentals while adapting to new techniques is key. Here’s what you need to know
+                    today.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/js-optmazed.svg" alt="Description">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Ex: user123@gmail.com">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div> 
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p> Feito por Eduardo Silva &#128293 </p>
+    </footer>
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+
+</html>
